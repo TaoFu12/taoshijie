@@ -18,15 +18,7 @@
       "quickSearch": 1,
       "filterable": 0
     },
-    {
-      "key": "https://91jpzyw.com/api.php/provide/vod/at/xml",
-      "name": "锻炼吓意志力",
-      "type": 0,
-      "api": "https://91jpzyw.com/api.php/provide/vod/at/xml",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
+
     {
       "key": "金鹰",
       "name": "继续假正经",
@@ -35,7 +27,16 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
-    }
+    },
+    {
+      "key": "https://91jpzyw.com/api.php/provide/vod/at/xml",
+      "name": "提醒下广告莫相信，都是视频自带咯",
+      "type": 0,
+      "api": "https://91jpzyw.com/api.php/provide/vod/at/xml",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
   ],
   "lives": [
     {
