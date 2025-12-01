@@ -1,84 +1,86 @@
-[
-  {
-    "key": "hnytxj",
-    "name": "金牌影院",
-    "type": 3,
-    "api": "csp_Web",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "style": {
-      "image": "pic"
-    },
-    "ext": {
-      "homeUrl": "https://hnytxj.com",
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "cate": [
-        {
-          "type_name": "电影",
-          "type_id": "1",
-          "url": "/vod/show/id/1.html"
-        },
-        {
-          "type_name": "电视剧",
-          "type_id": "2",
-          "url": "/vod/show/id/2.html"
-        },
-        {
-          "type_name": "综艺",
-          "type_id": "3",
-          "url": "/vod/show/id/3.html"
-        },
-        {
-          "type_name": "动漫",
-          "type_id": "4",
-          "url": "/vod/show/id/4.html"
-        }
-      ],
-      "list": {
-        "title": ".module-info-heading-title@text",
-        "img": ".module-poster img@src",
-        "desc": ".module-info-content@text",
-        "content": ".module-items .module-item",
-        "attrs": {
-          "name": ".module-item-title@text",
-          "id": ".module-item@data-post-id",
-          "pic_url": ".module-item-poster img@src",
-          "link": ".module-item-cover a@href"
-        }
+{
+  "sites": [
+    {
+      "key": "hnytxj",
+      "name": "金牌影院",
+      "type": 3,
+      "api": "csp_Web",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "image": "pic"
       },
-      "detailUrl": "/vod/detail/id/{vid}.html",
-      "detail": {
-        "content": ".module-info",
-        "episodes": {
-          "episodes": ".module-play-list .module-play-list-link",
+      "ext": {
+        "homeUrl": "https://m.hnytxj.com",
+        "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "cate": [
+          {
+            "type_name": "电影",
+            "type_id": "1",
+            "url": "/vod/show/id/1.html"
+          },
+          {
+            "type_name": "电视剧",
+            "type_id": "2",
+            "url": "/vod/show/id/2.html"
+          },
+          {
+            "type_name": "综艺",
+            "type_id": "3",
+            "url": "/vod/show/id/3.html"
+          },
+          {
+            "type_name": "动漫",
+            "type_id": "4",
+            "url": "/vod/show/id/4.html"
+          }
+        ],
+        "list": {
+          "title": ".module-info-heading-title@text",
+          "img": ".module-poster img@src",
+          "desc": ".module-info-content@text",
+          "content": ".module-items .module-item",
           "attrs": {
-            "name": "text",
-            "id": "@data-vid"
+            "name": ".module-item-title@text",
+            "id": ".module-item@data-post-id",
+            "pic_url": ".module-item-poster img@src",
+            "link": ".module-item-cover a@href"
           }
         },
-        "attrs": {
-          "name": ".module-info-heading-title@text",
-          "pic_url": ".module-poster img@src",
-          "type": ".module-info-type@text",
-          "year": ".module-info-year@text",
-          "area": ".module-info-area@text",
-          "actor": ".module-info-actor@text",
-          "director": ".module-info-director@text",
-          "content": ".module-info-content@text"
-        }
-      },
-      "searchUrl": "/vod/search/___________wd/{wd}.html",
-      "search": {
-        "content": ".search-num~div",
-        "attrs": {
-          "name": ".module-item-title@text",
-          "id": ".module-item@data-post-id",
-          "pic_url": ".module-item-poster img@src",
-          "link": ".module-item a@href"
-        }
-      },
-      "playUrl": "/vod/play/id/{vid}/sid/{epid}/nid/{nid}.html"
+        "detailUrl": "/vod/detail/id/{vid}.html",
+        "detail": {
+          "content": ".module-info",
+          "episodes": {
+            "episodes": ".module-play-list .module-play-list-link",
+            "attrs": {
+              "name": "text",
+              "id": "@data-vid"
+            }
+          },
+          "attrs": {
+            "name": ".module-info-heading-title@text",
+            "pic_url": ".module-poster img@src",
+            "type": ".module-info-type@text",
+            "year": ".module-info-year@text",
+            "area": ".module-info-area@text",
+            "actor": ".module-info-actor@text",
+            "director": ".module-info-director@text",
+            "content": ".module-info-content@text"
+          }
+        },
+        "searchUrl": "/vod/search/___________wd/{wd}.html",
+        "search": {
+          "content": ".search-num~div",
+          "attrs": {
+            "name": ".module-item-title@text",
+            "id": ".module-item@data-post-id",
+            "pic_url": ".module-item-poster img@src",
+            "link": ".module-item a@href"
+          }
+        },
+        "playUrl": "/vod/play/id/{vid}/sid/{epid}/nid/{nid}.html"
+      }
     }
-  }
-]
+  ]
+}
